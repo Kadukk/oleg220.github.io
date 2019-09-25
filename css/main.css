@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-image: url(../img/first-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.container-80{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.div1-1{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 6%;
+    
+}
+
+.div1-1-1{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.div1-1-2{
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.p1{
+    font-size: 24px;
+    margin: 0;
+}
+
+.i1{
+    font-size: 18px;
+    margin-top: 8px;
+}
+.div1-2{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.div1-3{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 20px;
+    
+}
+
+.menu-page{
+    height: 80px;
+    align-items: flex-end;
+
+}
+
+.text-wheels{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    height: 80px;
+    width: 150px;
+    float: left;
+    align-items: center;
+    display: inline-flex;
+}
+
+.ul-menu-page{
+    float: right;
+    display: inline-flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 300;
+    height: 80px;
+    align-items: center;
+}
+
+.li-menu-page{
+    margin-left: 100px;
+}
+
+.About-Us-menu{
+    box-shadow: 7px 7px 22px #eaeaea;
+}
+
+.container-70{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.About-Us{
+    height: 326px;
+}
+.aboot-company{
+    height: 326px;
+}
+
+.h2-about-us{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 52px;
+    letter-spacing: 2px;
+}
+
+.p-about-us{
+    text-align: center;
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.icon-bike{
+    text-align: center;
+}
+
+.p-lorem-about-us{
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.Statistic{
+    background-image: url(../img/second-bg.jpg);
+    height: 458px;
+    font-family: 'Raleway', Courier, monospace;
+}
+
+.h2-some-statistics{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-top: 94px;
+    padding-bottom: 17px;
+}
+
+.p-some-statistics{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.three-divs-statistics{
+    width: 100vw;
+    color: white;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.statistics409{
+    width: 270px;
+    font-size: 72px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    
+}
+
+.statistics2012{
+    width: 270px;
+    font-size: 72px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.statistics0{
+    width: 270px;
+    font-size: 72px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.st409{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+
+.st2012{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.st0{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.Featured-Products{
+    height: 1053px;
+}
+
+.h2-featured-products{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.p-featured-products{
+    font-size: 18px;
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.orange-bike{
+    width: 400px;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    height: 400px;
+    line-height: 30px;
+    /* float: left; */
+}
+
+.product-bikes{
+    
+    padding-top: 5px;
+    
+}
+
+.a-product-bikes{
+    color: grey;
+    font-size: 18px;
+}
+
+.bikes-first-line{
+    display: inline-flex;
+    width: 70vw;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.Team{
+    height: 530px;
+    background-color: #ededed;
+}
+
+.h2-meat-team{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.p-meat-team{
+    font-size: 18px;
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.teammate{
+    display: inline-flex;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.sarah{
+    margin: 0 268px;
+}
+
+.team-3{
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+.p-team-3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+
+
+
+
+.Showcase{
+    height: 709px;
+}
+
+.h2-showcase{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    
+    padding-top: 64px;
+}
+
+.p-showcase{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    font-weight: 600;
+    margin-bottom: 52px;
+}
+
+.gallery{
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-weight: 900;
+}
+
+.h3-showcase{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Footer{
+    background-color: #1e1e1e;
+    height: 526px;
+    color: white;
+}
+
+.h2-footer{
+    padding-top: 56px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer-4{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 130px;
+}
+
+li{
+    list-style: none;
+    letter-spacing: 2px;
+    font-weight: inherit;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.footer-blocks{
+    font-size: 20px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+
+}
+
+.icon-media{
+    margin-right: 10px;
+}
